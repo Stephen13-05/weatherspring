@@ -171,28 +171,3 @@ http://localhost:8080
 ```
 
 ---
-
-## 🧠 Key Implementation Highlights
-
-- Renamed `condition` field to `weatherCondition` to avoid MySQL reserved keyword conflict  
-- Used Spring Data JPA derived query methods (`findByDate`, `findByMonthAndYear`)  
-- Implemented median calculation logic in service layer  
-- Batch CSV insertion during startup  
-- Clean layered architecture (Controller → Service → Repository)  
-
----
-
-## 📈 Future Enhancements
-
-- Add Swagger API documentation  
-- Implement global exception handling  
-- Add pagination  
-- Add caching (Redis)  
-- Dockerize the application  
-- Deploy to cloud (AWS / Azure / Railway)  
-
----
-
-## 👨‍💻 Author
-
-Backend project built using Spring Boot and MySQL for weather data processing and statistical analysis.
